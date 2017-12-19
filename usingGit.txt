@@ -1,44 +1,48 @@
-ÅäÖÃ£º 
+é…ç½®ï¼š 
 git config --global user.name "Fishc_wll"
 git config --global user.email "3286994482@qq.com"
 git config --list
 
-ÊµÕ½£º
-git init  ´´½¨¸ú×ÙÎÄ¼ş¼Ğ
-git add README.md  Ìí¼ÓÎÄ¼ş
+å®æˆ˜ï¼š
+git init  åˆ›å»ºè·Ÿè¸ªæ–‡ä»¶å¤¹
+git add README.md  æ·»åŠ æ–‡ä»¶
 git commit -m "add a README file"
 
-commit¿ÉÒÔÒ»´ÎÌá½»¶à¸öÎÄ¼ş£º
+commitå¯ä»¥ä¸€æ¬¡æäº¤å¤šä¸ªæ–‡ä»¶ï¼š
 $ git add file1.txt
 $ git add file2.txt
 $ git add file3.txt
 $ git commit -m "add 3 files."
 
 
-git status  ²é¿´¹¤×÷×´Ì¬
-git reset HEAD using.txt  ½«Ôİ´æÇøµÄÎÄ¼ş·µ»Øµ½¹¤×÷Ä¿Â¼
-git log ²é¿´×Ô¼º²Ö¿âµÄ°æ±¾£¬ÀúÊ·Ìá½»¼ÇÂ¼
+git status  æŸ¥çœ‹å·¥ä½œçŠ¶æ€
+git reset HEAD using.txt  å°†æš‚å­˜åŒºçš„æ–‡ä»¶è¿”å›åˆ°å·¥ä½œç›®å½•
+git log æŸ¥çœ‹è‡ªå·±ä»“åº“çš„ç‰ˆæœ¬ï¼Œå†å²æäº¤è®°å½•
 
-git reset HEAD~ ±íÊ¾headµÄÉÏÒ»¸ö¿ìÕÕ
+git reset HEAD~ è¡¨ç¤ºheadçš„ä¸Šä¸€ä¸ªå¿«ç…§
 
-git reset HEAD~2 ±íÊ¾headµÄÉÏÉÏÒ»¸ö¿ìÕÕ
+git reset HEAD~2 è¡¨ç¤ºheadçš„ä¸Šä¸Šä¸€ä¸ªå¿«ç…§
 
-git reset --soft HEAD~    ÒÆ¶¯HEADµÄÖ¸Ïò£¬½«ÆäÖ¸ÏòÉÏÒ»¸ö¿ìÕÕ£¨Ïàµ±ÓÚÌá½»³·Ïú¼ü£©
+git reset --soft HEAD~    ç§»åŠ¨HEADçš„æŒ‡å‘ï¼Œå°†å…¶æŒ‡å‘ä¸Šä¸€ä¸ªå¿«ç…§ï¼ˆç›¸å½“äºæäº¤æ’¤é”€é”®ï¼‰
 
-git reset --hard HEAD~    ½«²Ö¿âÀïÃæµÄÎÄ¼ş»¹Ô­µ½¹¤×÷Ä¿Â¼£¬²¢É¾³ı²Ö¿âÀïµÄ£¬±È½ÏÎ£ÏÕ£¬»á¸²¸ÇÄãµÄ¹¤×÷Ä¿Â¼×îĞÂ°æ
+git reset --hard HEAD~    å°†ä»“åº“é‡Œé¢çš„æ–‡ä»¶è¿˜åŸåˆ°å·¥ä½œç›®å½•ï¼Œå¹¶åˆ é™¤ä»“åº“é‡Œçš„ï¼Œæ¯”è¾ƒå±é™©ï¼Œä¼šè¦†ç›–ä½ çš„å·¥ä½œç›®å½•æœ€æ–°ç‰ˆ
 
-git branch ·ÖÖ§Ãû³Æ           ´´½¨·ÖÖ§
+git branch åˆ†æ”¯åç§°           åˆ›å»ºåˆ†æ”¯
 
-git log --decorate            ²é¿´·ÖÖ§
+git log --decorate            æŸ¥çœ‹åˆ†æ”¯
 
 
-git checkout ·ÖÖ§Ãû           ÇĞ»»·ÖÖ§(Ä¬ÈÏ·ÖÖ§ÃûÎªmaster)
+git checkout åˆ†æ”¯å           åˆ‡æ¢åˆ†æ”¯(é»˜è®¤åˆ†æ”¯åä¸ºmaster)
 
-git merge ·ÖÖ§Ãû              ºÏ²¢·ÖÖ§
+git merge åˆ†æ”¯å              åˆå¹¶åˆ†æ”¯
 
-git checkout -b ·ÖÖ§Ãû        ´´½¨²¢ÇĞ»»µ½¸Ã·ÖÖ§´¦
+git checkout -b åˆ†æ”¯å        åˆ›å»ºå¹¶åˆ‡æ¢åˆ°è¯¥åˆ†æ”¯å¤„
 
-git log --decorate --all --oneline --graph         ²é¿´·ÖÖ§Çé¿ö
+git log --decorate --all --oneline --graph         æŸ¥çœ‹åˆ†æ”¯æƒ…å†µ
 
-git branch -d ·ÖÖ§Ãû                      É¾³ı·ÖÖ§
+git branch -d åˆ†æ”¯å                      åˆ é™¤åˆ†æ”¯
+
+git clone ä»“åº“åœ°å€ Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  å°†githubçš„æ–‡ä»¶ä¸‹è½½ç”µè„‘æœ¬æœºç¡¬ç›˜ä¸Š
+
+git push Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  å°†æ–‡ä»¶æäº¤è‡³è¿œç¨‹githubä¸Š
 
