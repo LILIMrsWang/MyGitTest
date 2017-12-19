@@ -1,0 +1,44 @@
+配置： 
+git config --global user.name "Fishc_wll"
+git config --global user.email "3286994482@qq.com"
+git config --list
+
+实战：
+git init  创建跟踪文件夹
+git add README.md  添加文件
+git commit -m "add a README file"
+
+commit可以一次提交多个文件：
+$ git add file1.txt
+$ git add file2.txt
+$ git add file3.txt
+$ git commit -m "add 3 files."
+
+
+git status  查看工作状态
+git reset HEAD using.txt  将暂存区的文件返回到工作目录
+git log 查看自己仓库的版本，历史提交记录
+
+git reset HEAD~ 表示head的上一个快照
+
+git reset HEAD~2 表示head的上上一个快照
+
+git reset --soft HEAD~    移动HEAD的指向，将其指向上一个快照（相当于提交撤销键）
+
+git reset --hard HEAD~    将仓库里面的文件还原到工作目录，并删除仓库里的，比较危险，会覆盖你的工作目录最新版
+
+git branch 分支名称           创建分支
+
+git log --decorate            查看分支
+
+
+git checkout 分支名           切换分支(默认分支名为master)
+
+git merge 分支名              合并分支
+
+git checkout -b 分支名        创建并切换到该分支处
+
+git log --decorate --all --oneline --graph         查看分支情况
+
+git branch -d 分支名                      删除分支
+
