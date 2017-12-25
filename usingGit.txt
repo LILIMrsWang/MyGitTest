@@ -14,6 +14,10 @@ $ git add file2.txt
 $ git add file3.txt
 $ git commit -m "add 3 files."
 
+删除文件
+git rm 文件名
+git commit -m "delete file"  
+git push
 
 git status  查看工作状态
 git reset HEAD using.txt  将暂存区的文件返回到工作目录
